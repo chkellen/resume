@@ -18,7 +18,7 @@
         scrollToElement: function (element) {
             let top = element.offsetTop
             let currentTop = window.scrollY
-            let targetTop = top - 80
+            let targetTop = top - 120
             let s = targetTop - currentTop
             var coords = { y: currentTop };
             var t = Math.abs((s / 100) * 300)
